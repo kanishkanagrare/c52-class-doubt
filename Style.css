@@ -1,0 +1,40 @@
+H1{
+    color:blueviolet
+}
+
+
+.HEADER{background-color: turquoise; display: flex; justify-content: center;}
+.MIDDLE{background-color: gold;font-size: medium;}
+.GRID{background-color: lightcoral; display: flex; flex-wrap: wrap; justify-content: space-evenly;}
+.ICONS{background-color: lightseagreen; display: flex;}
+
+BODY{
+    background-color: #657699;
+    padding: 4cm;
+    margin: 10mm;
+}
+
+a :link{
+    color: rgb(109, 172, 255)
+
+}
+a :visited{
+    color: pink
+}
+.ITEMS{
+    position: relative
+}
+.ITEMS p{
+    position: absolute;
+    top:50%; left:50%;
+    transform:translate(-50%, -50%);
+    opacity: 0
+
+}
+
+.ITEMS :hover p{
+opacity: 5
+}
+.ITEMS :hover img{
+ opacity: 0.1   
+}
